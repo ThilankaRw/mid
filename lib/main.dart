@@ -48,54 +48,58 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final List<Book> books = [
     Book(
-      title: 'LiLAK',
-      author: 'yesha fernando',
+      title: 'Always Watching',
+      author: 'chevy stevens',
       price: 19.99,
       preview:
-          'Lilak" refers to two distinct books for different audiences. One is a Sinhala poetry collection by Yesha Fernando, published by Rasa Katha Publishers, exploring love, emotions, and personal experiences. The other is Lilak: Cookbook for Bachelors & Bachelorettes by Edes Co., offering simple, step-by-step recipes using common ingredients. Both books provide unique experiences, one through poetry and the other through practical cooking',
+          'Always Watching" is a gripping psychological thriller novel by Chevy Stevens. The story revolves around Dr. Nadine Lavoie, a psychiatrist with a dark past, who discovers unsettling connections between her patients and her own traumatic experiences. While treating a woman who escaped a dangerous cult, Nadine uncovers the sinister influence of a charismatic cult leader named Aaron Quinn. As she digs deeper, she confronts repressed memories from her own time in the cult, putting her life and sanity at risk. The novel is a chilling exploration of memory, trauma, and the enduring effects of manipulation.',
       imageUrl:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbZsFt99CvZ-DUMJekktAYZ7X3keMxruiyJQ&s',
+          'https://chevystevens.com/wp-content/uploads/2020/09/AlwaysWatching-cvr-674x1024.jpg',
     ),
     Book(
-      title: 'Madol Doova',
-      author: 'Martin Wickramasinghe',
+      title: 'Fratal Noise',
+      author: 'cris paolini',
       price: 22.99,
       preview:
-          'Madol Doova is a beloved Sinhala childrens novel by Martin Wickramasinghe. Set in Sri Lanka, it follows the adventures of two mischievous boys, Upali and Jinna, as they escape societal constraints and explore life on a secluded island. The story highlights themes of friendship, independence, and resilience, making it a timeless classic in Sri Lankan literature',
+          '"Fractal Noise" by Christopher Paolini is a science fiction prequel to To Sleep in a Sea of Stars. The story is set in 2234 and follows a crew exploring a distant exoplanet. When they discover a massive, mysterious hole emitting a strange signal, the team grapples with their own fears, motivations, and the enigmatic nature of their discovery. The novel delves into themes of isolation, human resilience, and the quest for meaning in an alien and vast universe. Its a thought-provoking and suspenseful journey into the unknown',
       imageUrl:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgGWmmYZ6fem7WEVbgXPrNfkT1NTbOKYUfgQ&s',
+          'https://www.paolini.net/wp-content/uploads/2022/10/FractalNoise-TS1-674x1024.jpg',
     ),
     Book(
-      title: 'Kammali Mole',
-      author: 'Chandhana sooriyabandara',
+      title: 'Splinter and Ash',
+      author: 'marissha meyer',
       price: 14.99,
       preview:
-          'Kammalimole by Chandhna Sooriyabandara is a poignant and evocative novel that explores themes of identity, personal growth, and resilience. The story revolves around the central character, Kammalimole, a young woman who confronts various challenges in her life. Through her journey, the novel delves into complex human emotions, societal expectations, and the pursuit of dreams. With a strong cultural backdrop, the book paints a vivid picture of rural life and the struggles faced by its characters, making it a thought-provoking read about self-discovery and the power of perseverance',
+          '"Splinter and Ash" by Marissa Meyer is a captivating fantasy novel that explores themes of identity, loyalty, and forbidden love. The story follows two characters—one a warrior bound by duty and the other a magical being hiding from a society that fears their kind. As their worlds collide, they must navigate dangerous secrets, political intrigue, and their growing connection. With rich world-building and emotionally charged storytelling, the novel offers an enchanting blend of romance and adventure',
       imageUrl:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXk2IPqEGakK2ayQO3BqSNLJ0uL7lDpb-0qw&s',
+          'https://teenlibrariantoolbox.com/wp-content/uploads/2024/12/Splinter_Ash-HC-c-674x1024.jpg',
     ),
     Book(
-      title: 'Educated',
-      author: 'Tara Westover',
+      title: 'Ancient Ghosts',
+      author: 'Edel Marit Gaino',
       price: 18.99,
       preview:
-          'A memoir about a woman who grows up in a strict and abusive household...',
-      imageUrl: 'https://example.com/educated.jpg',
+          'Ancient Ghosts" explores the eerie and mysterious through tales deeply rooted in cultural traditions and personal discoveries. Whether delving into the chilling folklore of Northern Norway, deciphering enigmatic carvings etched into cliffs across various states, or unearthing Viking ghost stories from ancient sagas, these narratives offer a fascinating glimpse into the supernatural beliefs and mysteries of the past. Perfect for readers who enjoy an intersection of history, folklore, and the paranormal, these stories transport you to a world where the line between the living and the otherworldly blurs',
+      imageUrl:
+          'https://inhabiteducationbooks.com/cdn/shop/products/AncientGhostscover_English__RGB_1_1024x1024.jpg?v=1671215504',
     ),
     Book(
-      title: 'Becoming',
-      author: 'Michelle Obama',
+      title: 'Ghost Stories',
+      author: 'M. R. James',
       price: 24.99,
       preview:
-          'A deeply personal and inspiring memoir by the former First Lady...',
-      imageUrl: 'https://example.com/becoming.jpg',
+          '"Ghost Stories of an Antiquary" by M.R. James is a classic collection of eerie and atmospheric tales, widely regarded as masterpieces of the ghost story genre. Published in 1904, the book features eight chilling stories, each blending scholarly settings with supernatural elements. With meticulous detail and a slow-building sense of dread, James introduces vengeful spirits, cursed objects, and unsettling encounters, creating an unforgettable sense of unease. Perfect for fans of traditional ghost stories, this collection captures the essence of gothic horror and remains a cornerstone of the genre',
+      imageUrl:
+          'https://www.penguinreaders.co.uk/wp-content/uploads/2021/09/PR_L3R_GHOSTStories_20703-1-663x1024.jpg',
     ),
     Book(
-      title: 'Dune',
-      author: 'Frank Herbert',
+      title: 'Paris ',
+      author: 'WIlliam Owen Roberts',
       price: 16.99,
-      preview: 'A science fiction epic about politics, religion, and power...',
-      imageUrl: 'https://example.com/becoming.jpg',
+      preview:
+          '"Paris" by William Owen Roberts: This novel, originally published in 2013, follows the Alexandrov family as they navigate the tumultuous events of war and revolution across Europe, ultimately leading them to Paris. The narrative delves into themes of displacement, identity, and resilience, providing a rich tapestry of historical and personal experiences.',
+      imageUrl:
+          'https://www.parthianbooks.com/cdn/shop/products/Paris_draft_1_1024x1024.jpg?v=1494941375',
     ),
   ];
 
@@ -160,10 +164,17 @@ class _HomeScreenState extends State<HomeScreen> {
               title: const Text('Contact Us'),
             ),
             ListTile(
-              leading: const Icon(Icons.person),
-              title: const Text('Profile'),
+              leading: const Icon(Icons.favorite),
+              title: const Text('Favorites'),
               onTap: () {
-                Get.to(() => ProfileScreen());
+                Get.to(() => FavoritesPage());
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.shopping_cart),
+              title: const Text('Cart'),
+              onTap: () {
+                Get.to(() => CartPage());
               },
             ),
           ],
@@ -182,130 +193,22 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
           ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                // Removed Button 1
+                // Removed Button 2
+              ],
+            ),
+          ),
           Expanded(
             child: ListView.builder(
               itemCount: filteredBooks.length,
               itemBuilder: (context, index) {
                 final book = filteredBooks[index];
                 return BookWidget(book: book);
-              },
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class ProfileScreen extends StatefulWidget {
-  ProfileScreen({super.key});
-
-  @override
-  _ProfileScreenState createState() => _ProfileScreenState();
-}
-
-class _ProfileScreenState extends State<ProfileScreen> {
-  final List<Book> books = [
-    Book(
-      title: 'The Silent Patient',
-      author: 'Alex Michaelides',
-      price: 19.99,
-      preview:
-          'A psychological thriller about a woman who shoots her husband...',
-      imageUrl: 'https://example.com/silent_patient.jpg',
-    ),
-    Book(
-      title: 'Atomic Habits',
-      author: 'James Clear',
-      price: 22.99,
-      preview: 'A guide to building good habits and breaking bad ones...',
-      imageUrl: 'https://example.com/atomic_habits.jpg',
-    ),
-    Book(
-      title: 'Where the Crawdads Sing',
-      author: 'Delia Owens',
-      price: 14.99,
-      preview:
-          'A story of survival and mystery in the marshlands of North Carolina...',
-      imageUrl: 'https://example.com/crawdads_sing.jpg',
-    ),
-    Book(
-      title: 'Educated',
-      author: 'Tara Westover',
-      price: 18.99,
-      preview:
-          'A memoir about a woman who grows up in a strict and abusive household...',
-      imageUrl: 'https://example.com/educated.jpg',
-    ),
-    Book(
-      title: 'Becoming',
-      author: 'Michelle Obama',
-      price: 24.99,
-      preview:
-          'A deeply personal and inspiring memoir by the former First Lady...',
-      imageUrl: 'https://example.com/becoming.jpg',
-    ),
-    Book(
-      title: 'Dune',
-      author: 'Frank Herbert',
-      price: 16.99,
-      preview: 'A science fiction epic about politics, religion, and power...',
-      imageUrl: 'https://example.com/dune.jpg',
-    ),
-  ];
-
-  List<Book> filteredBooks = [];
-
-  @override
-  void initState() {
-    super.initState();
-    filteredBooks = books;
-  }
-
-  void _filterBooks(String query) {
-    final filtered = books.where((book) {
-      final titleLower = book.title.toLowerCase();
-      final authorLower = book.author.toLowerCase();
-      final searchLower = query.toLowerCase();
-
-      return titleLower.contains(searchLower) ||
-          authorLower.contains(searchLower);
-    }).toList();
-
-    setState(() {
-      filteredBooks = filtered;
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Profile'),
-      ),
-      body: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: TextField(
-              onChanged: _filterBooks,
-              decoration: const InputDecoration(
-                labelText: 'Search',
-                border: OutlineInputBorder(),
-                prefixIcon: Icon(Icons.search),
-              ),
-            ),
-          ),
-          Expanded(
-            child: GridView.builder(
-              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 2,
-                childAspectRatio: 0.7,
-              ),
-              itemCount: filteredBooks.length,
-              itemBuilder: (context, index) {
-                final book = filteredBooks[index];
-                return BookWidget(book: book, useOriginalSize: true);
               },
             ),
           ),
@@ -389,48 +292,90 @@ class BookDetailsScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(book.title),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            Image.network(book.imageUrl),
-            const SizedBox(height: 16.0),
-            Text(
-              book.title,
-              style: Theme.of(context).textTheme.headlineSmall,
-            ),
-            Text(
-              'by ${book.author}',
-              style: Theme.of(context).textTheme.titleMedium,
-            ),
-            const SizedBox(height: 8.0),
-            Text(
-              '\$${book.price}',
-              style: Theme.of(context).textTheme.titleLarge,
-            ),
-            const SizedBox(height: 16.0),
-            Text(book.preview),
-            const Spacer(),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[
-                ElevatedButton(
-                  onPressed: () {
-                    // Implement Buy Now functionality
-                  },
-                  child: const Text('Buy Now'),
-                ),
-                ElevatedButton(
-                  onPressed: () {
-                    Get.back();
-                  },
-                  child: const Text('Go Back'),
-                ),
-              ],
-            ),
-          ],
+      body: SafeArea(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Image.network(book.imageUrl),
+              const SizedBox(height: 16.0),
+              Text(
+                book.title,
+                style: Theme.of(context).textTheme.headlineSmall,
+              ),
+              Text(
+                'by ${book.author}',
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
+              const SizedBox(height: 8.0),
+              Text(
+                '\$${book.price}',
+                style: Theme.of(context).textTheme.titleLarge,
+              ),
+              const SizedBox(height: 16.0),
+              Text(book.preview),
+              const SizedBox(height: 16.0),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: <Widget>[
+                  ElevatedButton(
+                    onPressed: () {
+                      // Implement Buy Now functionality
+                    },
+                    child: const Text('Buy Now'),
+                  ),
+                  ElevatedButton(
+                    onPressed: () {
+                      Get.back();
+                    },
+                    child: const Text('Go Back'),
+                  ),
+                  IconButton(
+                    icon: const Icon(Icons.shopping_cart),
+                    onPressed: () {
+                      // Implement Add to Cart functionality
+                    },
+                  ),
+                  IconButton(
+                    icon: const Icon(Icons.favorite_border),
+                    onPressed: () {
+                      // Implement Add to Favorites functionality
+                    },
+                  ),
+                ],
+              ),
+            ],
+          ),
         ),
+      ),
+    );
+  }
+}
+
+class FavoritesPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Favorites'),
+      ),
+      body: Center(
+        child: Text('Favorites Page'),
+      ),
+    );
+  }
+}
+
+class CartPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Cart'),
+      ),
+      body: Center(
+        child: Text('Cart Page'),
       ),
     );
   }
