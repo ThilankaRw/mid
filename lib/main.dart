@@ -39,10 +39,10 @@ class Book {
 }
 
 class HomeScreen extends StatefulWidget {
-  HomeScreen({super.key});
+  const HomeScreen({super.key});
 
   @override
-  _HomeScreenState createState() => _HomeScreenState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
@@ -354,13 +354,15 @@ class BookDetailsScreen extends StatelessWidget {
 }
 
 class FavoritesPage extends StatelessWidget {
+  const FavoritesPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Favorites'),
       ),
-      body: Center(
+      body: const Center(
         child: Text('Favorites Page'),
       ),
     );
@@ -368,13 +370,15 @@ class FavoritesPage extends StatelessWidget {
 }
 
 class CartPage extends StatelessWidget {
+  const CartPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Cart'),
       ),
-      body: Center(
+      body: const Center(
         child: Text('Cart Page'),
       ),
     );
